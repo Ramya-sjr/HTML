@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign up form</title>
+	<style>
+		/*label{
+			color: white;
+      display: inline-block;
+      width: 140px;
+      text-align: right;
+
+		}
+        .center {
+                  margin: 100px;
+                  width: 80%;
+                  border: 3px solid #ffffff;
+                  padding: 10px;
+                  text-align: center;
+                       }
+      #rect{
+           color: white;
+           border: 2px white;
+             width: 75%;
+             margin: 0 auto 0 auto;
+      }
+      */
+      div {
+            color: white;
+            width: 300px;
+            border: 5px solid white;
+            padding: 50px;
+            margin: 150px 200px 200px 700px;
+            font-size: 20px;
+}
+    .button {
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+}
+    #grad{
+           background-image: linear-gradient(dimgray, gainsboro);
+          }
+	
+	</style>
+</head>
+<body id=grad>
+	<div>
+	  <h2>Sign Up Form </h2>
+  
+     <form method="post">
+    
+       
+       <input id=FN type="text" name="firstname" placeholder="First Name" required />
+       
+       <input id=LN type="text" name="lastname" placeholder="Last Name"/>
+       
+       <p><b>Gender :</b></p>
+       <input id=male type="radio" name="gender" value="Male"/>Male
+      
+       <input id=female type="radio" name="gender" value="Female"/>Female
+       </br>
+       <p><b>Date of Birth :</b></p>
+       <select value="Date">
+         <option>1</option>
+         <option>2</option>
+         <option>3</option>
+         <option>4</option>
+       </select >
+       <select value="Month">
+         <option>Jan</option>
+         <option>Feb</option>
+         <option>Mar</option>
+         <option>Dec</option>
+       </select>
+       <select value="Year">
+         <option>1995</option>
+         <option>1996</option>
+         <option>1997</option>
+         <option>1998</option>
+       </select>
+     </br></br>
+       
+       <input id=email type="email" name="Id" placeholder="E-mail" required /> </br></br>
+       
+       <input type="password" name="PW" placeholder="Password" required> </br></br>
+       <button class=button >Sign Up</button>
+      
+
+    
+     </form>
+</div> 
+</body>
+
+</html>
