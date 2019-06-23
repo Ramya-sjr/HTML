@@ -1,0 +1,22 @@
+body
+{
+margin-left: 200px;
+margin-right: 200px;
+border: 15px solid #bdc3c7;
+font-family: source sans pro;
+padding: 20px;
+
+}
+h5{
+	color: #3498db;
+	letter-spacing: 5px;
+	
+}
+/*span
+{
+	border-left: 50px solid #bdc3c7;
+}*/
+hr.line
+{
+	border-bottom: 1px solid #bdc3c7;
+}
