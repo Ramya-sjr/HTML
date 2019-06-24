@@ -1,0 +1,19 @@
+img{
+	width: 30%;
+	margin: 1.66%;
+	height: 300px;
+	float: left;
+}
+
+h4{
+    font-family: Raleway;
+    font-weight: 800px;
+    margin-left: 1.66%;
+    font-size: 26px;
+    text-transform: uppercase;
+
+}
+
+hr.new{
+	border-bottom: 1px solid #C0C0C0;
+}
