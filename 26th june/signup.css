@@ -1,0 +1,87 @@
+.navbar{
+    background : rgba(0, 0, 0, 0.5);
+}
+
+.navbar-brand{
+    color: aliceblue;
+}
+
+
+body{
+
+background: url("https://www.wallpapers4u.org/wp-content/uploads/background_lines_spots_glare_36847_1920x1080.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+       
+        .box {
+            color: black;
+            width: 500px;
+            border: 5px solid black;
+            padding: 50px;
+            margin: 75px 200px 200px 700px;
+            font-size: 20px;
+}
+    .button {
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+}
+               
+                p{
+			          color:black;
+
+		}
+
+        input[type=text],select {
+             width: 30%;
+             padding: 12px 20px;
+             margin: 8px 0;
+             display: inline-block;
+             background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            }
+
+            input[type=text] {
+             width: 100%;
+             padding: 12px 20px;
+             margin: 8px 0;
+             display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            }
+
+            input[type=password] {
+             width: 100%;
+             padding: 12px 20px;
+             margin: 8px 0;
+             display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+}
+
+input[type=email] {
+             width: 100%;
+             padding: 12px 20px;
+             margin: 8px 0;
+             display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+}

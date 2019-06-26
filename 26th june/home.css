@@ -1,0 +1,25 @@
+/* img{
+    max-width: 100%;
+    height: auto;
+    width: auto;
+} */
+
+
+
+.navbar{
+    background : rgba(0, 0, 0, 0.5);
+}
+
+.navbar-brand{
+    color: aliceblue;
+}
+
+.box{
+    margin: 200px 200px 200px 200px;
+    padding: 20px;
+}
+
+h1{
+
+    color: black;
+}
