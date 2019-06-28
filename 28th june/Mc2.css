@@ -1,0 +1,163 @@
+.jumbotron{
+
+    background-image: url(https://widgety-assets.s3.amazonaws.com/2017/09/27/17/38/30/d7f71d8a-1a9e-4901-a86e-17adb21cb446/McDonalds%20Cover.png);
+    height : 500px;
+    background-position: 0% 100%; 
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+
+.card-image-fluid{
+    top:0;
+}
+
+/* .card-image {
+    background-repeat: no-repeat;
+    /* background-position: 50% 50%; */
+    /* background-size: cover;
+    width: 300px;
+    height: 300px;
+  } */
+   
+  
+  .card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.cardbox{
+    margin: 30px 50px 50px 30px;
+
+
+}
+
+h3{
+    text-align: center;
+    font-size: 50px;
+    font-style: bold;
+}
+
+.menubox{
+     /* border: 1px solid black;  */
+    width:100%; 
+    padding:5px;
+    background-color: rgb(235, 228, 228);
+    box-shadow: 2px 2px 2px 1px gray;
+    padding-bottom: 20px;
+
+}
+
+.btn{
+    
+    border-radius: 20px;
+    margin:15px;
+}
+.buttonbox{
+    padding: 5px;
+    padding-left: 600px;
+    
+    /* margin: 0 auto 0 auto; */
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.carouselbox{
+   
+    border: 1px solid black;
+    width :35%;
+    height:50%;
+    margin: 0 auto 0 auto;
+    font-family: 'Raleway';
+    /* opacity: 0.7; */
+    /* filter:alpha; */
+    /* background-color: rgba(0, 0, 0);  */
+    
+}
+
+.car{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.3);
+}
+
+.footer{
+
+    width:100%;
+    height:10%;
+    background-color: white;
+    /* border:1px solid rgb(235, 228, 228); */
+    
+}
+
+.iconbox{
+    border: 1px solid white;
+    margin-left: 1700px;
+    width:100px;
+    margin-bottom: 40px;
+}
+
+#copyright{
+    color:rgb(199, 193, 193);
+    margin:15px 10px auto 15px;
+    margin-top: 40px;
+}
+
+.imgtiles{
+    /* border: 1px solid black; */
+    width: 200px;
+    float: left;
+    margin: 40px;
+    padding: 50px;
+    padding-left: 75px;
+    text-align: center;
+    display: inline block;
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 1;
+}
+
+body{
+    background-image: url("/home/ramya/Pictures/static.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width:100%;
+  }
+}
+
+hr{
+    width:10%;
+    border-width: 10px;
+    color: rgb(147, 146, 170);
+}
+
+ .feat{
+    background-color: aliceblue;
+    border: 1px solid black;
+} 
+
+.static{
+    width:100%;
+    border: 1px solid black;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Raleway';
+    padding-top: 20px;
+}
+
+h1{
+    font-family: 'Raleway';
+    font-size: 100px;
+    font-weight:800;
+}
+
+
+    .btn-success{
+        height:50px;
+        width:250px;
+    }
