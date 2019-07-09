@@ -1,0 +1,234 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+header
+{
+
+height: 100px;    
+padding: 20px;
+
+}
+
+.logo {
+	float: left;
+	width: 20%;
+	margin-top: 15px;
+
+  }
+
+.menu {
+	float: left;
+	width: 60%;
+	margin-top: 40px;
+	
+  }
+
+.icon {
+	float: left;
+	width: 20%;
+	margin-top: 35px;
+	
+  }
+
+  ul{
+	list-style-type: none;
+
+}
+
+li {
+  display: inline;
+}
+  
+  li a {
+	  
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	color: #333333;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  li a:hover {
+	background-color: rgba(17, 17, 17, 0.021);
+  }
+
+.box{
+
+	width: 100%;
+	background-color: rgb(0, 204, 255);
+	height: 652px;
+}
+.container{
+	/* width: 1200px; */
+	display: flex;
+	float: right;
+	
+}
+
+ .headings{
+
+	margin-top: 135px;
+	font-family: 'Arimo', sans-serif;
+	color: aliceblue;
+}
+
+.headings h1
+{
+	font-size: 50px;
+
+} 
+
+.headings h5,h6
+{
+	display: flex;
+}
+
+.button {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 10px 5px;
+	cursor: pointer;
+  }
+
+  .button4 {
+	background-color: rgb(0, 204, 255);
+	color: white;
+	border: 2px solid #e7e7e7;
+  }
+
+.box img {
+	float: right;
+}
+
+.items
+{
+	padding: 20px;
+	height: 500px;
+	
+}
+
+.titles
+{
+
+	font-family: 'Arimo', sans-serif;
+	text-align: center;
+	color: #333333;
+
+}
+
+.products 
+{
+	padding: 40px;
+	padding-left: 60px;
+}
+
+.cards
+{
+   width: 15%;
+   margin: 4%;
+   height: 300px;
+   float: left;
+}
+
+.cards img:hover
+{
+	background-color: #333333;
+	
+}
+
+.tab_image
+{
+	background-color: #F5F5F5;
+	height: 800px;
+	text-align: center;
+	padding: 20px;
+	clear: both;
+	
+}
+
+.tab_image h2
+{
+	font-family: 'Arimo', sans-serif;
+	margin-bottom: 15px;
+}
+.tabbox a
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	color: #333333;
+	text-decoration: none;
+	margin: 15px;
+}
+
+.tabbox a:hover{
+
+	color: darkorange;
+}
+
+.imagebox{
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 70%;
+	background-color: white;
+	box-shadow: 5px 5px 5px #88888888;
+	display: flex;
+
+}
+
+.fridge_des{
+
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+    margin-left: 35px;
+	line-height: 1.6;
+
+}
+
+.fridge_des h2
+{
+	color: darkorange;
+}
+
+.fridge_des li
+{
+ display: block;
+}
+
+.end{
+
+	width: 70%;
+	margin: 0 auto;
+	padding: 30px;
+	display: flex;
+}
+.support
+{
+	padding: 20px;
+	font-family: 'Arimo', sans-serif;
+}
+.pic
+{
+
+}
+.corporate
+{ 
+  padding: 20px;
+  background-color: darkorange;
+  font-family: 'Arimo', sans-serif;
+  color: white;
+} 
+
+.footer1
+{
+	width: 70%;
+	margin: 0 auto;
+}
