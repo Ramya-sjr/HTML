@@ -1,0 +1,212 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+header{
+	background-color: #f3f3f5;
+}
+
+.navbar-nav{
+	margin-left: 80px;
+}
+
+.icon
+{
+	margin-left: 70px;
+	display: flex;
+}
+
+.slide
+{
+	background-color: #3ab5d9;
+}
+
+.slide img
+{
+	float: right;
+}
+
+.carousel-caption
+{
+	text-align: left;
+	bottom: 145px;
+}
+
+.headings{
+
+	margin-top: 135px;
+	font-family: 'Arimo', sans-serif;
+	color: aliceblue;
+}
+
+.headings h1
+{
+	font-size: 50px;
+
+} 
+
+.headings h5,h6
+{
+	display: flex;
+}
+
+.button {
+	
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 10px 5px;
+	cursor: pointer;
+  }
+
+  .button4 {
+	background-color: #3ab5d9;
+	color: white;
+	border: 2px solid #e7e7e7;
+  }
+
+
+.items
+{
+	padding: 20px;
+	height: 500px;
+	
+}
+
+.titles
+{
+
+	font-family: 'Arimo', sans-serif;
+	text-align: center;
+	color: #333333;
+
+}
+
+.tab_image
+{
+	background-color: #F5F5F5;
+	height: 1000px;
+	text-align: center;
+	padding: 20px;
+	clear: both;
+	
+}
+
+.tab_image h2
+{
+	font-family: 'Arimo', sans-serif;
+	margin-bottom: 15px;
+}
+.tabbox a
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	color: #333333;
+	text-decoration: none;
+	margin: 15px;
+}
+
+.tabbox a:hover{
+
+	color: darkorange;
+}
+
+
+.imagebox{
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 70%;
+	background-color: white;
+	box-shadow: 5px 5px 5px #88888888;
+	display: flex;
+
+}
+
+.fridge
+{
+	width: 75%;
+}
+
+.fridge_des{
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.1rem;
+	width: 25%;
+	text-align: left;
+	margin-left: 35px;
+	padding-top: 40px;
+	padding-right: 10px;
+	line-height: 1.6;
+
+}
+
+.fridge_des h2
+{
+	color: darkorange;
+}
+
+.fridge_des li
+{
+ display: block;
+}
+
+.end
+{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.support
+{
+	padding: 20px;
+	font-family: 'Arimo', sans-serif;
+}
+.corporate
+{ 
+  padding: 20px;
+  background-color: #f89102;
+  font-family: 'Arimo', sans-serif;
+  color: white;
+} 
+
+.footer1{
+   background-color: #f5f5f5;
+   padding-top: 20px;
+   padding-bottom: 10px;
+}
+
+.footer1 col-sm
+{
+	margin: 10px;
+}
+
+.footer
+{
+	background-color: #212121;
+	color: #a9a9a9;
+	padding-top: 20px;
+	/*margin: 5px;*/
+	padding-bottom: 20px;
+
+}
+
+.button3 {
+	background-color: #212121;
+	color: #f89102;
+	border: 2px solid #f89102;
+  }
+
+.col-sm ol
+{
+	list-style: none;
+	margin-left: -40px;
+}
+
+hr
+{
+	border: 0.4px solid #f5f5f5;
+}
+
