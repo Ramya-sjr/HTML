@@ -1,0 +1,22 @@
+/*nav{
+
+	height: 100px;
+}*/
+
+li{
+	display: inline-block;
+}
+
+
+
+
+.row{
+	width: 100%;
+}
+
+.ul{
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

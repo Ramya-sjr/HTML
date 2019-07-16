@@ -1,0 +1,179 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	
+}
+
+.ml{
+	margin-left: 10rem;
+}
+
+header{
+	width: 100%;
+	background-color: white;
+	box-shadow: 1px 3px 7px #d3d3d3;
+    position: relative;
+    z-index: 1;
+	
+}
+
+.bg-light {
+    background-color: white !important;
+}
+
+form.form-inline.my-2.my-lg-0 {
+    padding: 20px;
+	border-radius: 45px;
+	height: 75px;
+    background: #f8f9fa;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    /* color: #495057; */
+    /* background-color: #fff; */
+    /* background-clip: padding-box; */
+    border: transparent;
+    /* border-radius: 0.25rem; */
+    /* transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; */
+}
+[type="search"] {
+    /* outline-offset: -2px; */
+    /* -webkit-appearance: none; */
+}
+
+
+.fab{
+
+	font-size: 40px;
+	color: #339af0;
+}
+
+li a{
+	font-weight: 700;
+}
+
+.style{
+	list-style-type: none;
+	
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+}
+
+a.navlink{
+	color: rgba(0,0,0,0.5);
+}
+
+
+
+.body{
+	background-color: #f5f5f5;
+
+}
+
+.body-container{
+	margin: 0 auto;
+	width: 1100px; 
+	padding: 20px;
+}
+
+.body-container h4{
+	color: #808080;
+}
+
+
+
+.box{
+	background-color: white;
+	height: auto;
+}
+
+.button-grp{
+	/* display: inline-block;
+	 */
+	 display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.btn{
+	border-radius: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 23px;
+	
+}
+
+.btn-primary{
+	height: 100px;
+	box-shadow: 1px 3px   #008cff;
+	background-color: #339af0; 
+
+}
+
+.btn-light{
+	background-color: #ffffff;
+	border: 1px solid #d3d3d3;
+	box-shadow: 1px 3px  7px #d3d3d3;
+	height: 80px;
+}
+
+.btn-light :hover{
+	 background-color: #339af0; 
+}
+
+.button-grp button{
+	margin-top: 10px;
+}
+
+p{
+	color: #808080;
+}
+
+.txt-center{
+	text-align: center;
+}
+
+.version{
+	color: #808080;
+	padding: 1.5rem;
+	padding-bottom: 1rem;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.mrg{
+	margin-top: 2.5rem;
+	margin-bottom: 2.5rem;
+}
+
+.mrg a{
+	color: #008cff !important;
+}
+
+.free{
+	display: flex;
+}
+
+
+.free span {
+    background-color: #d3d3d3;
+    color: white;
+    border-radius: 13px;
+    height: max-content;
+    width: 81px;
+    padding: 2px;
+	text-align: center;
+}
+
+.footer{
+	background-color: #333333;
+	color: #d3d3d3;
+}

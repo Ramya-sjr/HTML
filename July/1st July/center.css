@@ -1,0 +1,35 @@
+
+
+ .logo{
+
+     margin: auto; 
+    
+    /* background-color: red; */
+    width:70%;
+    
+    
+ }
+
+ .login{
+
+    width: 30%;
+    
+
+ }
+
+ .container{
+
+     display:flex;
+     height:100vh;
+     align-content: center;
+     
+
+     /* display: flex; 
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     margin-right: -50%;
+     transform: translate(-50%, -50%); */
+ }
+
+ 

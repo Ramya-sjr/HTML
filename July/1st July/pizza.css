@@ -1,0 +1,169 @@
+.jumbotron{
+
+    background-image: url(https://raw.githubusercontent.com/Ramya-sjr/HTML/master/30th%20June/pizza.jpg);
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    height : 400px;
+    background-position: 0% 100%; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    /* z-index: -1; */
+} 
+
+#jbtext
+{
+    
+        text-align: center;
+        font-size: 70px;
+        font-weight: 800;
+        color: aliceblue;
+        margin-right: 0px;
+    
+}
+hr.style-two {
+    border: 0;
+    height: 5px;
+    width:25%;
+    background-image: linear-gradient(to right, rgba(0, 135, 0, 0), rgb(188, 200, 204), rgba(0, 0, 0, 0));
+}
+
+i {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+  #arrow{
+      font-size:30px; 
+  }
+
+  .imagebox{
+    
+    margin: 0 auto 0 auto;
+    width: 40%;
+    height:1175px;
+    background-image: url(https://images.all-free-download.com/images/graphiclarge/black_texture_texture_background_03_hd_pictures_169904.jpg);
+    padding: 50px;
+    margin-bottom: 40px;
+}  
+
+.textblock{
+
+    
+    color: white;
+    margin-left: 30px;
+    font-family: 'Tillana', cursive;
+    padding-top: 30px;
+    font-weight: 500; 
+    font-size: 20px;
+
+}
+
+h2{
+    
+    color: white;
+    
+}
+
+.order{
+    /* border-bottom:5px solid yellow; */
+    /* background-color:rgba(0, 0, 0, 0.5); */
+    background-image: url(https://image.freepik.com/free-photo/tasty-pepperoni-pizza-black-concrete-background_79782-102.jpg);
+    background-position: 0% 100%; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    height: 300px;
+    font-size: 75px;
+    text-align: center;
+}
+
+#FD{
+    
+    font-family: 'Tillana', cursive;
+
+}
+
+.btn{
+    
+    border-radius: 20px;
+    margin:15px;
+}
+
+.btn-success{
+    height:50px;
+    width:250px;
+}
+
+.afooter{
+    
+    display:flex;
+    background-color: black;
+    height:250px;
+    padding-left:100px;
+
+}
+
+.footer{
+
+    width:100%;
+    height:10%;
+    background-color: white;
+    /* border:1px solid rgb(235, 228, 228); */
+    
+}
+
+.iconbox{
+    border: 1px solid white;
+    margin-left: 1700px;
+    width:100px;
+    margin-bottom: 40px;
+}
+
+#copyright{
+    color:rgb(199, 193, 193);
+    margin:15px 10px auto 15px;
+    margin-top: 40px;
+}
+
+#mail{
+    padding-top: 50px; 
+    padding-left: 100px;
+    color: white;
+    width: 500px;
+    margin-left: 20px;
+}
+
+#line{
+    border-right:3px solid white;
+    height: 200px;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 20px;
+    
+}
+
+#line2{
+    border-right:3px solid white;
+    height: 200px;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 20px;
+    
+
+}
+
+input[type=email]{
+
+    border-radius: 5px;
+    height: 40px;
+    width: 200px;
+}

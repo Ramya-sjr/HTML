@@ -1,0 +1,102 @@
+.navbar-brand{
+
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+
+
+
+.image{
+
+	background-image: url(https://qello.com/welcome/images/Background_1600.jpg);
+    height : 550px;
+    background-position: 0% 100%; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    text-shadow: 2px 2px #A9A9A9;
+    font-size: 500px;
+
+
+}
+
+.container
+{
+    padding: 80px;
+    /*margin-left: 80px;*/
+}
+
+h2
+{
+    text-align: center; 
+    margin-bottom: 30px;
+    font-size: 50px;
+    /*font-weight: 700;*/
+    font-family: 'Russo One', sans-serif;
+
+
+}
+
+.box{
+
+    background-color: lightgray;
+    height: 500px;
+    padding: 100px;
+}
+
+h3{
+
+    text-align: center;
+    color: white;
+    font-family: 'Francois One', sans-serif;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+h1{
+       font-family: 'Francois One', sans-serif;
+}
+
+.para
+{   
+
+   font-size: 20px;
+   color: #333333;
+}
+
+.carousel_box
+{
+    background-color: white;
+    margin: 0 auto;
+    width :50%;
+    height:50%;
+
+
+}
+.car
+{
+    background-color: #333333;
+    padding: 20px;
+}
+.carousel-inner img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.car p
+{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+
+}
+
+.btn {
+
+     margin: 0 auto;
+}
+

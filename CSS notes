@@ -1,0 +1,66 @@
+Background :
+       background-repeat: no-repeat; (images)
+       background-size: cover;       (to cover full screen)
+Border :
+       
+       border-color: black;
+       border-width: 5px;
+       border-style: solid; eg:dash,dotted.
+                (or)
+       border: px solid purple; 
+
+Selectors :
+   Element Selectors          //selects all h1
+        h1{
+        key:value;
+        }
+
+   ID Selectors               //Selects tags if id name matches
+        id=name;
+          define:
+            #id_name{
+            property : value;
+            }
+
+    Class selector
+        class=name;
+         define:
+          .class{
+                 property : value; 
+                  }
+
+    Star selector 
+        *{                        //Selects all tags
+          property : value;
+        }
+
+    Descendant selectors             
+        li a{                     //Selects all a within li
+             property : value;
+        }
+
+    Adjacent Selectors 
+        h4 + ul{                 //Selects all ul after h4
+             property : value;
+        }
+        
+     Attribute Selectors
+        a[href="https://facebook.com"] {   //Selects a tag which has href="facebook.com"
+             property : value;
+        } 
+        input[type="checkbox"]{
+             property : value;
+        }
+
+     Nth of type Selectors
+        ul:nth-of-type(3){        //Selects 3rd list of every ul
+             property : value;
+        }
+
+
+    
+Text :
+  Text decoration :line-through;
+
+Box Model :
+    

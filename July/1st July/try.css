@@ -1,0 +1,9 @@
+.container{
+
+	max-width: 960px;
+	background-color: gray;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+
+}

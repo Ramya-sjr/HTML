@@ -1,0 +1,146 @@
+#bd{
+	border: 5px solid skyblue;
+	border-radius: 2px;
+	margin: 50px;
+	margin-left: 200px;
+	margin-right: 200px; 
+	padding: 5px;
+}
+
+#des{
+	border: 2px solid skyblue;
+	padding: 5px;
+	margin-top: 1%;
+	border-radius: 10px;
+	box-shadow: 2px 2px 3px 1px #999;
+}
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 135, 0, 0), rgba(135,206,235,1), rgba(0, 0, 0, 0));
+}
+
+img
+{
+	padding: 20px;
+	padding-left: 0px;
+	border-radius: 20%;
+}
+ul{
+	list-style: none;
+}
+
+ul li::before{
+	padding: 1px;
+	content:"\2022";
+	margin-left: -1em;
+	color: deepskyblue;
+	display: inline-block;
+
+}
+
+#bio{
+	border: 1px solid skyblue;
+	width: 250px;
+	border-radius: 5%;
+	padding: 10px;
+	padding-left: 15px;
+	margin-bottom: 5px;
+
+	background-image: linear-gradient( deepskyblue , lightskyblue);
+    box-shadow: 2px 2px 3px 1px #999;
+}
+#list{
+	border :1px solid skyblue;
+	border-radius: 5%;
+	padding-top:  5px;
+	padding-left: 1%;
+	margin-left: 1px;
+	box-shadow: 2px 2px 3px 1px #999; 
+}
+
+ {box-sizing:border-box}
+
+
+ .container {
+ 	width: 80%; 
+  background-color: lightgray; 
+  padding-left: 0px;
+  border-radius: 5px;
+  height: 20px;
+  margin-bottom: 15px;
+  margin-left: 5px; 
+  margin-top: 25px;
+  box-shadow: inset 2px 2px 5px gray;
+  
+}
+	
+.cont {
+  width: 80%; 
+  background-color: lightgray; 
+  
+  border-radius: 5px;
+  height: 20px;
+  margin-bottom: 15px;
+  margin-left: 5px; 
+  margin-top: 15px;
+  box-shadow: inset 2px 2px 5px gray;
+}
+
+.strengths {
+  text-align: center; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: black;
+  border-radius: 5px; 
+}
+
+.leadership {
+	width: 90%; 
+	background-image: linear-gradient( deepskyblue , lightskyblue); 
+	border-radius: 10px; 
+	height: 20px; 
+	padding: 1px; 
+	margin-top: -1em; 
+	margin-bottom: 500px;
+	border-radius: 5px;
+} 
+.team {
+	width: 80%; 
+	background-image: linear-gradient( deepskyblue , lightskyblue); 
+	border-radius: 10px; 
+	height: 20px; 
+	padding: 1px;
+	margin-top: -1em; 
+	border-radius: 5px;
+} 
+.motivation {
+	width: 65%; 
+	background-image: linear-gradient( deepskyblue , lightskyblue);
+	border-radius: 5px; 
+	height: 20px; 
+	padding: 1px;
+	margin-top: -1em; 
+} 
+.intro{
+	width: 50px;
+	background-image: linear-gradient( deepskyblue , lightskyblue); 
+	margin-left: 70px;
+	border-radius: 5px;
+
+}
+.analytical{
+	width: 50px;
+	background-image: linear-gradient( deepskyblue , lightskyblue);
+	margin-left: 40px;
+	border-radius: 5px;
+
+}
+.loyal{
+	width: 50px;
+	background-image: linear-gradient( deepskyblue , lightskyblue);
+	margin-left: 20px;
+	border-radius: 5px;
+
+}
