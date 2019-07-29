@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome-free-5.9.0-web/css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Dashboard</title>
+</head>
+
+<body>
+
+    <div class="body-wrapper">
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2 left-section">
+
+                    <div class="logo ">
+                        <!-- <i class="fas fa-th pr-2"><p style="color: black">DBfolio</p></i> -->
+                        <img src="img/logo.png">
+                        <p class="d-inline-block">DB folio</p>
+                    </div>
+
+                    <div class="report">
+                        <h6>REPORT</h6><br>
+                        <ul class="ml-5">
+                            <li><i class="far fa-file-alt"> file 12/31/18.log</i></li><br>
+                            <li><i class="far fa-file-alt"> file 12/31/18.log</i></li><br>
+                        </ul>
+                    </div>
+                    <div class="system">
+                        <h6>SYSTEM</h6><br>
+                        <ul class="ml-5">
+                            <li><i class="fa fa-th-large"> CLuster Status</i></li><br>
+                            <li><i class="fa fa-layer-group"> Instance</i></li><br>
+                            <li><i class="fa fa-desktop"> Index</i></li><br>
+                            <li><i class="far fa-image"> Snapshots</i></li><br>
+                            <li><i class="fas fa-microchip"> System Status</i></li><br>
+                        </ul>
+                    </div>
+                    <div class="management">
+                        <h6>MANAGEMENT</h6><br>
+                        <ul class="ml-5">
+                            <li><i class="fa fa-user"> User</i></li><br>
+                            <li><i class="far fa-square"> Intergration</i></li><br>
+                        </ul>
+                    </div>
+
+                    <div class="admin d-flex">
+                        <div class="dp"><img src="img/dp.jpeg" alt="profile"></div>
+                        <div class="info ml-3">
+                            <p>Dameon peterson</p>
+                            <p>Admin</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-7 middle-section">
+
+                    <div class="dashboard">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <p>Dashboard --> Reports</p>
+                                <h3>Summary</h3>
+                            </div>
+                            <div>
+                                <button type="button" class="btn btn-primary"><i class="fa fa-download"> Download
+                                        CSV</i></button>
+                            </div>
+                        </div>
+
+                        <!--Heading-->
+
+                        <h3 class="mt-3"><i class="fas fa-signal"></i> Events Over Time</h3>
+
+                        <!--Legends-->
+
+                        <div class="legends d-flex flex-row ">
+
+                            <div class="d-flex align-items-center">
+                                <div class="box box-1"></div>
+                                <p class="ml-2 mr-4">Apache</p>
+                            </div>
+
+                            <div class="d-flex align-items-center">
+                                <div class="box box-2"></div>
+                                <p class="ml-2 mr-4">404 (2953)</p>
+                            </div>
+
+                            <div class="d-flex align-items-center">
+                                <div class="box box-3"></div>
+                                <p class="ml-2 mr-4">500 (1523)</p>
+                            </div>
+
+                        </div>
+
+                        <img src="img/graph.png" style="width: 100%;">
+
+                        <div class="row mt-3">
+
+                            <div class="col-md-6">
+
+                               <h3><i class="far fa-clipboard ml-2">  Events log</i></h3> 
+
+                                <div class="row mt-5">
+
+                                    <div class="col-md-4">
+
+                                        <h6>TIME</h6>
+
+                                        <ul>
+                                            <li><p>01/09/2019 16:00</p></li>
+                                            <li><p>01/09/2019 16:00</p></li>
+                                            <li><p>01/09/2019 16:00</p></li>
+                                            <li><p>01/09/2019 16:00</p></li>
+                                            <li><p>01/09/2019 16:00</p></li>
+                                         </ul>
+
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <h6>HOST</h6>
+                                        <ul>
+                                            <li><p>192.168.5.62</p></li>
+                                            <li><p>192.168.5.62</p></li>
+                                            <li><p>192.168.5.62</p></li>
+                                            <li><p>192.168.5.62</p></li>
+                                            <li><p>192.168.5.62</p></li>
+
+
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <h6>TYPE</h6>
+                                        <ul>
+                                            <li><p>apache_access</p></li>
+                                            <li><p>apache_access</p></li>
+                                            <li><p>apache_error</p></li>
+                                            <li><p>apache_error</p></li>
+                                            <li><p>apache_access</p></li>
+
+
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="col-md-6">
+                                    <h3><i class="fas fa-bolt ml-5">   Bandwidth</i></h3>
+                                <img src="img/BW.png">
+
+                            </div>
+
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+
+                <div class="col-md-3 right-section">
+                    <p class="mt-5">Cluster id:2893754875094</p>
+                    <h1>Cluster Status</h1>
+                    <h5 class="mt-5"><i class="fa fa-th-large">Cluster Statistics</i></h5>
+                    <div class="row">
+
+                        <div class="col-md-6">
+                          
+                            <div class="cluster-box">
+                                <h3>44,450,000</h3>
+                                <p>Documents</p>
+                             </div>
+
+                             <div class="cluster-box">
+                                    <h3>44,450,000</h3>
+                                    <p>Documents</p>
+                                 </div>
+
+                             <div class="cluster-box">
+                                    <h3>44,450,000</h3>
+                                    <p>Documents</p>
+                                    </div>
+                        </div>
+                        <div class="col-md-6">
+
+                                <div class="cluster-box">
+                                        <h3>44,450,000</h3>
+                                        <p>Documents</p>
+                                     </div>
+        
+                                     <div class="cluster-box">
+                                            <h3>44,450,000</h3>
+                                            <p>Documents</p>
+                                         </div>
+        
+                                     <div class="cluster-box">
+                                            <h3>44,450,000</h3>
+                                            <p>Documents</p>
+                                            </div>
+                                </div>
+
+                        </div>
+
+                        <h5 class="mt-5 mb-5"><i class="far fa-plus-square">Cluster Health</i></h5>
+
+                        <div class="d-flex justify-content-between">
+                             <p>Status</p>
+                             <p>Active</p>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                                <p>Timed Out</p>
+                                <p>false</p>
+                           </div>
+                        <div class="d-flex justify-content-between">
+                                <p># Instances</p>
+                                <p>3</p>
+                           </div>
+                        <div class="d-flex justify-content-between">
+                                <p># Data Instances</p>
+                                <p>3</p>
+                           </div>
+                        <div class="d-flex justify-content-between">
+                                <p># Active Primary Shards</p>
+                                <p>122</p>
+                           </div>
+                        <div class="d-flex justify-content-between">
+                                <p>Active Shards</p>
+                                <p>244</p>
+                           </div>
+                        <div class="d-flex justify-content-between">
+                                <p>Relocating Shards</p>
+                                <p>0</p>
+                           </div>
+                           <div class="d-flex justify-content-between">
+                                <p>Initializing Shards</p>
+                                <p>0</p>
+                           </div>
+                        <div class="d-flex justify-content-between">
+                                <p>Unassigned Shards</p>
+                                <p>0</p>
+                           </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
