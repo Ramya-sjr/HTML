@@ -1,0 +1,29 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    height: 100vh;
+}
+
+header{
+    background-color: gray;
+    border: 1px solid black;
+}
+
+.mid-section{
+    background-color: skyblue;
+    color: black;
+    height: 100%;
+
+}
+
+
+
+
+
+footer{
+    background-color: gray;
+    border: 1px solid black;
+}

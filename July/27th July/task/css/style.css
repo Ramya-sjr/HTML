@@ -72,6 +72,11 @@ a{
     background-color: #e1fcf9;
 }
 
+.btn-light1{
+    background-image: linear-gradient(to right, #defafe , #e5fff2);
+    padding: 10px;
+}
+
 .jumbotron-content{
     height: 86.5vh;
     width: 60%;
@@ -158,8 +163,16 @@ a{
 .round-ht2{
     height: 200px;
     width: 200px;
-    position: absolute;
+    /* position: absolute; */
     left: 590px;
+}
+
+.round-ht3{
+    height: 500px;
+    width: 500px;
+    /* position: absolute; */
+    top: -170px;
+    left: -215px;
 }
 
 
@@ -207,7 +220,7 @@ a{
 }
 
 .black-box{
-    background-color: #293236;
+    background-color: #1f2d34;
     height: auto;
     width: 41%;
     color: #5fffb5;
@@ -244,13 +257,15 @@ a{
     color: #a8b2c0;
 }
 
+
 .house-titles{
     color: black;
 }
 
 .item img{
-    height: 270px;
-    width: 300px;
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .house-box{
@@ -267,13 +282,21 @@ a{
 }
 
 .right-section{
-    height: 60vh;
+    /* height: 60vh; */
+    width: 80%;
     position: relative;
 }
 
-.slide-right{
+/* .slide-right{
     position: absolute;
     height: inherit;
+} */
+
+.green-size{
+    width: 50%;
+    height: 5rem;
+    top: -36px;
+    right: 0;
 }
 
 /* @media (max-width: 1024px) {
